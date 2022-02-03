@@ -1,25 +1,33 @@
-<div class="container">
-  <button
-    class="burger-btn menu-toggle js-open-menu"
-    aria-expanded="false"
-    aria-controls="mobile-menu"
-  >
-    <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <line y1="1.44118" x2="15" y2="1.44118" stroke="black" />
-      <line y1="7" x2="15" y2="7" stroke="black" />
-      <line y1="12.5588" x2="15" y2="12.5588" stroke="black" />
-    </svg>
-  </button>
-  <div class="logo-wrapper">
-    <img src="images/svg/IMG_2812.PNG" alt="logo" width="50" height="58" />
-    <h2 class="logo__title">Podarki_hm_kiev</h2>
+<header class="header">
+  <div class="container header-container">
+    <button
+      class="burger-btn menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg
+        width="15"
+        height="14"
+        viewBox="0 0 15 14"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line y1="1.44118" x2="15" y2="1.44118" stroke="black" />
+        <line y1="7" x2="15" y2="7" stroke="black" />
+        <line y1="12.5588" x2="15" y2="12.5588" stroke="black" />
+      </svg>
+    </button>
+    <div class="logo-wrapper">
+      <img src="images/svg/IMG_2812.PNG" alt="logo" width="50" height="58" class="logo" />
+      <h2 class="logo__title">Podarki_hm_kiev</h2>
+    </div>
+    <div class="icons">
+      <svg width="24" height="24">
+        <use href="./images/svg/sprite.svg#icon-search"></use>
+      </svg>
+      <svg width="24" height="24">
+        <use href="./images/svg/sprite.svg#icon-cart"></use>
+      </svg>
+    </div>
   </div>
-  <div class="icons">
-    <svg>
-      <use href="./images/svg/sprite.svg#icon-search" width="24" height="24"></use>
-    </svg>
-    <svg>
-      <use href="./images/svg/sprite.svg#icon-cart" width="24" height="24"></use>
-    </svg>
-  </div>
-</div>
+</header>

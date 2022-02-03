@@ -1,0 +1,36 @@
+.header {
+  padding: 8px 0;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.burger-btn {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+}
+.menu-toggle {
+}
+.js-open-menu {
+}
+.logo-wrapper {
+  display: flex;
+  margin-right: auto;
+  margin-left: 20px;
+}
+.logo {
+  margin-top: -20px;
+
+  &__title {
+    @include font(700, 13px, 17px);
+
+    color: var(--third-accent-color);
+  }
+}
+.icons {
+  display: flex;
+  min-width: 60px;
+}
